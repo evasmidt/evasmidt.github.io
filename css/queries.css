@@ -146,11 +146,20 @@
 	}
 }*/
 
-@media screen and (max-width: 400px;){
-  	header {
+@media only screen and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	header {
 		background-image: url(desk-mobile.jpg);
 	}
 }
+
+
+/*@media screen and (max-width: 400px;){
+  	header {
+		background-image: url(desk-mobile.jpg);
+	}
+}*/
 
 /*@media only screen and (max-width: 480px) {
 	body {font-size:16px;}
