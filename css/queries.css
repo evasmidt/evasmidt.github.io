@@ -148,7 +148,6 @@
 
 @media only screen and (max-width: 489px) {
 	header {
-		 display:block;
 		background-image: url(desk-mobile.jpg) !important;
 		background-repeat: no-repeat !important;
       background-position: center !important;
