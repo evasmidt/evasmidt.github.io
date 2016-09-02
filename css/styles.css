@@ -508,6 +508,17 @@ input[type=submit]:active {
   color:#ffffff;
 }
 
+.btn-primary{
+  background: #3498db;
+  border-radius: 28px;
+  font-family: 'Istok Web', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 2em;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+
+}
+
 	footer {
 		text-align: center;
 		background-color: #ecf0f1;
