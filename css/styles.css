@@ -111,14 +111,7 @@ header {
 		font-family: 'Arimo', sans-serif;
 	}
 
-/*.dark-gradient{
-	background: red; /* For browsers that do not support gradients */
-  /*	background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
-  	/*background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1));*/ /*Opera 11.1-12*/
-  /*	background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); *//*Fx 3.6-15*/
-/*  	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/ /*Standard*/
-/*	opacity:.6;*/
-/*}*/
+
 	
 /*- - - -need to center this- - - -*/
 	.fa-angle-down{
@@ -130,36 +123,7 @@ header {
 		
 	}
 
-	/*#hero div{
-		display:inline;
 
-	}*/
-
-
-
-
-	/*.hero img{
-		min-width: 1255px;
-		max-height: 400px;
-	}*/
-/*.hero img{
-	position: absolute;
-	clip: rect (0px, 60px, 200px, 0px);
-	clip: inherit;
-}*/
-
-	/*.content-area {
-		max-width: 720px;
-		margin:auto;
-		padding: 10px 10px 20px 10px;
-
-	}*/
-
-	.first-panel{
-		width:100%;
-		/*visibility: hidden;*/
-		
-	}
 
 	.second-panel{
 		width:100%;
@@ -496,7 +460,7 @@ input[type=submit]{
   font-size: 1em;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
-
+  margin-bottom: 10px;
 }
 
 
@@ -509,21 +473,28 @@ input[type=submit]:active {
 }
 
 .btn-primary{
+  margin-top: 20px;
   background: #3498db;
-  border-radius: 28px;
+  border-radius: 25px;
   font-family: 'Istok Web', Arial, sans-serif;
   color: #ffffff;
-  font-size: 2em;
-  padding: 5px 10px 5px 10px;
+  font-size: 1.3em;
+  padding: .75em;
   text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 40%;
+}
 
+.btn-primary:hover{
+  background: #3cb0fd;
+  color:#ffffff;
 }
 
 	footer {
 		text-align: center;
 		background-color: #ecf0f1;
 		width:100%;
-		/*max-width:720px;*/
 	}
 
 	footer h2 {
