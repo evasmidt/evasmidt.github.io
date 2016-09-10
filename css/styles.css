@@ -294,7 +294,8 @@ header {
 		color: #9b59b6;
 		text-decoration: none;
 		border-bottom: 2px solid transparent;
-		transition: border-bottom:0.2s;
+		white-space: nowrap;
+		transition: 0.5s ease;
 
 	}
 	
@@ -302,6 +303,7 @@ header {
 	.main-nav li a:active{
 		border-bottom:2px solid #27ae60;
 		color: #8e44ad;
+		width: 200px;
 	}
 
 
