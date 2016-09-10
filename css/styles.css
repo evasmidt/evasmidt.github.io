@@ -14,15 +14,13 @@
 		display: block;
 		padding: 0px;
 		margin-left: 0px;
-		background-color:white;
-		
-		
+		background-color: white;
 	}
 	
 	body{
 		color: #445544;
 		font-family: 'Arimo', sans-serif, 'Playfair Display', serif;
-		font-size:1em;
+		font-size:16px;
 	}
 
 
@@ -68,14 +66,12 @@ header {
 .group {
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
-	.hero-area{
-		width:100%;
-		margin:auto;
-		background:rgba(255,255,255, .93);
-		/*min-height: 450px;*/	
-		padding:1em;	
-
-	}
+.hero-area{
+	width: 100%;
+	margin: auto;
+	background: rgba(255,255,255, .93);
+	padding: 1em;	
+}
 
 
 .text-area{
@@ -104,11 +100,13 @@ header {
 
 
 	
-
+.panel {
+	width:100%;
+	margin:auto;
+}
 	.second-panel{
 		width:100%;
 		margin:auto;
-		position:relative;
 	}
 
 
@@ -116,6 +114,12 @@ header {
 		width:100%;
 		margin:auto;
 	}
+
+.panel, .contact img {
+	float:right;
+		padding:10px;
+		max-width:250px;
+}
 
 	.third-panel img{
 		float:right;
@@ -174,9 +178,6 @@ header {
 	}
 
 
-	/*section{
-		margin-bottom:5%;
-	}*/
 	
 
 	article {
