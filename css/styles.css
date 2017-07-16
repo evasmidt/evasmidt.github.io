@@ -34,126 +34,6 @@ header {
 	}
 	
 
-<<<<<<< HEAD
-=======
-
-	.row{
-		max-width: 1140px;
-		margin: 0 auto;
-	}
-
-
-	.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
- 	}
-
-.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
-
-.section{
-	padding: 0px;
-	margin: 0px;
-	max-width:860px;
-	margin:auto;
-}
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
-.hero-area{
-	width: 100%;
-	margin: auto;
-	background: rgba(255,255,255, .93);
-	padding: 1em;	
-}
-
-
-.text-area{
-	position: absolute;
-	left:5%;
-	top:40%;
-	background:rgba(255,255,255,0.5);
-  	padding:1.5rem;
-}
-
-
-.text-area p{
-	padding-bottom: 20px;
-}
-
-
-.text-area h2{
-	color:#9b59b6;
-}
-
-	
-
-	.serif {
-		font-family: 'Arimo', sans-serif;
-	}
-
-
-	
-.panel {
-	width:100%;
-	margin:auto;
-}
-	.second-panel{
-		width:100%;
-		margin:auto;
-	}
-
-
-	.third-panel{
-		width:100%;
-		margin:auto;
-	}
-
-.panel, .contact img {
-	float:right;
-		padding:10px;
-		max-width:250px;
-}
-
-	.third-panel img{
-		float:right;
-		padding:10px;
-		max-width:250px;
-	}
-
-	.full-width-img{
-		background: url(code-and-coffee1920.jpg) no-repeat;
-		height:600px;
-		max-width: 1920px;
-		background-size: 100%;
-		width:100%;
-		position:relative;
-		padding-top:5%;
-		padding-bottom:5%;
-	}
-
-
-
-	.fourth-panel{
-		width:100%;
-		margin:auto;
-		background:rgba(255,255,255, .93);
-		min-height: 450px;	
-		padding:1em;
-
-	}
-
-	
-
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 	p {
 		color: #2c3e50;
 		font-family: 'Arimo', sans-serif, 'Playfair Display', serif;
@@ -162,21 +42,13 @@ header {
 		letter-spacing: 0.09em;
 	}
 
-<<<<<<< HEAD
 	/*hr {
-=======
-	hr {
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 		margin-top:30px;
 		border: 0;
     	height: 0;
     	border-top: 1px solid rgba(0, 0, 0, 0.1);
     	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-<<<<<<< HEAD
 	}*/
-=======
-	}
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 
 	a {
 		color: #13c1f1;
@@ -223,11 +95,7 @@ header {
 	
 	h2 {
 		font-size:1.75rem;
-<<<<<<< HEAD
 		color: #000;
-=======
-		color: #2ecc71;
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 		font-family: 'Lobster', 'Josefin Sans', cursive, sans-serif;
 		margin-bottom: 15px;
 		margin-top:10px;
@@ -254,11 +122,7 @@ header {
 /*Logo*/
 
 .logo {
-<<<<<<< HEAD
 	/*height: 100px;*/
-=======
-	height: 100px;
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 	width: auto;
 	float: left;
 	margin-top:20px;
@@ -426,7 +290,6 @@ header {
 
 
 
-<<<<<<< HEAD
 	.row{
 		max-width: 1140px;
 		margin: 0 auto;
@@ -635,8 +498,6 @@ header {
 	
 
 
-=======
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
@@ -649,13 +510,10 @@ header {
 	.span_1_of_3 {
 		width: 100%;
 	}
-<<<<<<< HEAD
 
 	.unicorn {
 	display: none;
 	}
-=======
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 }
 
 .btn,
@@ -772,16 +630,11 @@ input[type=submit]:active {
 		width: 100%; 
 	}
 }*/
-<<<<<<< HEAD
 /*@media only screen and (max-width: 600px) {
 .unicorn {
 	float: none;
 	}
 */
-=======
-
-
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 
  /* - - - - - - - ANIMATIONS - - - - - - - */
 .js--wp1, 
@@ -809,7 +662,6 @@ input[type=submit]:active {
 
 
  /* - - - - - - - font icons - - - - - - - */
-<<<<<<< HEAD
 .gantt2 {
 	fill: #2c3e50;
 	/*width: 100px;*/
@@ -822,8 +674,6 @@ input[type=submit]:active {
  .content-icon:hover{
  	fill: white;
  }
-=======
->>>>>>> 2efbe7c0cf18e996ea08a397b0f206fdb034baf5
 @font-face {
     font-family: 'sinkin_sans400_regular';
     src: url('sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.eot');
